@@ -13,8 +13,20 @@
   border-radius: 50%;
   overflow: hidden;
   user-select: none;
-  border: 0.5px solid rgb(68, 183, 0);
+  border: 0.5px solid rgb(187, 189, 186);
   padding: 8px;
+}
+
+.Avatar-container-available {
+  border: 0.5px solid rgb(68, 183, 0);
+}
+
+.Avatar-container-busy {
+  border: 0.5px solid rgb(255, 0, 0);
+}
+
+.Avatar-container-away {
+  border: 0.5px solid rgb(255, 255, 0);
 }
 
 .Avatar-logo {

@@ -27,7 +27,22 @@
   right: 12%;
   transform: scale(1) translate(50%, 50%);
   transform-origin: 100% 100%;
+  background-color: rgb(187, 189, 186);
+  color: rgb(187, 189, 186);
+  box-shadow: rgb(255 255 255) 0px 0px 0px 2px;
+}
+
+.Badge-away {
+  background-color: rgb(255, 255, 0);
+  color: rgb(255, 255, 0);
+}
+
+.Badge-busy {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.Badge-available {
   background-color: rgb(68, 183, 0);
   color: rgb(68, 183, 0);
-  box-shadow: rgb(255 255 255) 0px 0px 0px 2px;
 }
