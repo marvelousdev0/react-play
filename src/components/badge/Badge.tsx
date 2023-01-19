@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import { USER_STATUS } from "../../constants/user";
 import "./Badge.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Badge({
   status = USER_STATUS.DEFAULT,
@@ -12,6 +14,7 @@ export default function Badge({
   return (
     <div className="Badge-container">
       {children}
+      <span className="Badge-tooltip">{status}</span>
       <span
         className={clsx(
           "Badge-circle",
@@ -25,7 +28,9 @@ export default function Badge({
             "Badge-busy": status === USER_STATUS.BUSY,
           }
         )}
-      />
+      >
+        <FontAwesomeIcon icon={faCheck} />
+      </span>
     </div>
   );
 }
