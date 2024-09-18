@@ -24,14 +24,12 @@ body {
   min-height: 100vh;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
 }
-
 
 @layer base {
   :root {
@@ -88,7 +86,6 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
-
 
 @layer base {
   * {
