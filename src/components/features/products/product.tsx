@@ -1,19 +1,19 @@
-import { Product as ProductType } from '@/components/features/product-list';
+import { Product as ProductType } from '@/components/features/products/product-list.tsx';
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
+} from '@/components/ui/card.tsx';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/ui/carousel';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+} from '@/components/ui/carousel.tsx';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog.tsx';
 import Autoplay from 'embla-carousel-autoplay';
 
 export default function Product({ product }: { product: ProductType }) {
