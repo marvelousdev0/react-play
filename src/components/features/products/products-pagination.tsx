@@ -5,7 +5,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from '@/components/ui/pagination.tsx';
+} from '@/components/ui/pagination';
 
 export default function ProductsPagination({
   onNavigateToPage,

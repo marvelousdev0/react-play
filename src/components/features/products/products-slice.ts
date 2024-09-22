@@ -1,5 +1,5 @@
-import { OFFSET } from '@/components/features/products/product-list.tsx';
-import { CategoryData } from '@/components/features/products/product-types.ts';
+import { OFFSET } from '@/components/features/products/product-list';
+import { CategoryData } from '@/components/features/products/product-types';
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { produce } from 'immer';
 

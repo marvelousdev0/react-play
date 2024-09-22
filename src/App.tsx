@@ -1,5 +1,5 @@
 import { useWebVitals } from '@/hooks/use-web-vitals';
-import Products from '@/pages/products-page.tsx';
+import Products from '@/pages/products-page';
 
 function App() {
   useWebVitals();

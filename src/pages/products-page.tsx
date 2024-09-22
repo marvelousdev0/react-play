@@ -4,7 +4,7 @@ import {
   fetchCategories,
   setSelectedCategory,
 } from '@/components/features/products/products-slice';
-import { useAppDispatch, useAppState } from '@/lib/store.ts';
+import { useAppDispatch, useAppState } from '@/lib/store';
 import { useEffect } from 'react';
 
 export default function Products() {

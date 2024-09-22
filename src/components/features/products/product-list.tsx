@@ -1,10 +1,10 @@
-import Product from '@/components/features/products/product.tsx';
-import ProductsPagination from '@/components/features/products/products-pagination.tsx';
+import Product from '@/components/features/products/product';
+import ProductsPagination from '@/components/features/products/products-pagination';
 import {
   fetchCategoryData,
   setPageNumber,
-} from '@/components/features/products/products-slice.ts';
-import { useAppDispatch, useAppState } from '@/lib/store.ts';
+} from '@/components/features/products/products-slice';
+import { useAppDispatch, useAppState } from '@/lib/store';
 import { useEffect } from 'react';
 
 export const OFFSET = 5;
