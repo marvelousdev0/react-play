@@ -1,5 +1,5 @@
 import { useWebVitals } from '@/hooks/use-web-vitals';
-import { router } from '@/lib/router.tsx';
+import { router } from '@/lib/router';
 import { RouterProvider } from 'react-router-dom';
 
 function App() {
