@@ -1,5 +1,5 @@
-import { OFFSET } from '@/components/features/products/product-list';
-import { CategoryData } from '@/components/features/products/product-types';
+import { OFFSET } from '@/components/features/products/constants';
+import { CategoryData } from '@/components/features/products/types';
 import { PayloadAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { produce } from 'immer';
 
@@ -108,6 +108,5 @@ const fetchCategoryData = createAsyncThunk(
 );
 
 export { productsSlice, fetchCategories, fetchCategoryData };
-export const { setCategories, setSelectedCategory, setCategoryData, setPageNumber } =
-  productsSlice.actions;
+export const { setSelectedCategory, setPageNumber } = productsSlice.actions;
 export default productsSlice.reducer;

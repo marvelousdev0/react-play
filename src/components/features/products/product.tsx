@@ -1,4 +1,4 @@
-import { Product as ProductType } from '@/components/features/products/product-types';
+import { Product as ProductType } from '@/components/features/products/types';
 import {
   Card,
   CardContent,

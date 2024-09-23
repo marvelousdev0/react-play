@@ -1,6 +1,5 @@
-import productsReducer from '@/components/features/products/products-slice.ts';
+import productsReducer from '@/components/features/products/products-slice';
 import { configureStore } from '@reduxjs/toolkit';
-// eslint-disable-next-line @typescript-eslint/no-restricted-imports
 import { useDispatch, useSelector, useStore } from 'react-redux';
 
 const store = configureStore({

@@ -1,3 +1,4 @@
+import { OFFSET } from '@/components/features/products/constants';
 import Product from '@/components/features/products/product';
 import ProductsPagination from '@/components/features/products/products-pagination';
 import {
@@ -6,8 +7,6 @@ import {
 } from '@/components/features/products/products-slice';
 import { useAppDispatch, useAppState } from '@/lib/store';
 import { useEffect } from 'react';
-
-export const OFFSET = 5;
 
 export default function ProductList({ category }: { category: string | null }) {
   const dispatch = useAppDispatch();
