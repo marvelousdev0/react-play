@@ -25,7 +25,10 @@ export default function Products() {
         <h1 className="text-5xl font-semibold text-center">Shop</h1>
       </div>
       <div className="mx-auto grid w-full max-w-6xl items-start gap-6 md:grid-cols-[180px_1fr] lg:grid-cols-[250px_1fr]">
-        <nav className="grid text-sm text-muted-foreground" x-chunk="categories">
+        <nav
+          className="grid text-sm text-muted-foreground sticky top-[4rem] h-[calc(100vh-4rem)] overflow-y-auto"
+          x-chunk="categories"
+        >
           <Categories
             categories={categories.data}
             onCategoryClick={onCategoryClick}
